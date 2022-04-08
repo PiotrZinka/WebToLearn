@@ -1,0 +1,192 @@
+/* Checkboxy*/
+.input-checkbox-toggle > .inputct-state[type="checkbox"]:checked ~ .inputct-toggle {background: #28c162;}
+.input-checkbox-toggle > .inputct-state[type="checkbox"]:checked ~ .inputct-toggle > .inputct-toggle-switch {left: 13px;}
+
+/* Popup z oceną */
+.paw-actions .btn-popup.star-rate.fa-star.five:hover ~ .btn-popup.star-rate.fa-star.four,
+.paw-actions .btn-popup.star-rate.fa-star.five:hover ~ .btn-popup.star-rate.fa-star.three,
+.paw-actions .btn-popup.star-rate.fa-star.five:hover ~ .btn-popup.star-rate.fa-star.two,
+.paw-actions .btn-popup.star-rate.fa-star.five:hover ~ .btn-popup.star-rate.fa-star.one,
+.paw-actions .btn-popup.star-rate.fa-star.four:hover ~ .btn-popup.star-rate.fa-star.three,
+.paw-actions .btn-popup.star-rate.fa-star.four:hover ~ .btn-popup.star-rate.fa-star.two,
+.paw-actions .btn-popup.star-rate.fa-star.four:hover ~ .btn-popup.star-rate.fa-star.one,
+.paw-actions .btn-popup.star-rate.fa-star.three:hover ~ .btn-popup.star-rate.fa-star.two,
+.paw-actions .btn-popup.star-rate.fa-star.three:hover ~ .btn-popup.star-rate.fa-star.one,
+.paw-actions .btn-popup.star-rate.fa-star.two:hover ~ .btn-popup.star-rate.fa-star.one {color: #FDC83E;}
+
+/* Egzamin */
+.content-box-wht.exam:last-child {margin-bottom: 0px;}
+.cbw-efs-image-wrap:hover .cbw-efs-image-mask {opacity: 1;}
+
+/* Nawigacja kulki - podpis po najechaniu */
+.btn-nav-page:hover .btn-nav-page-text {opacity: 1;}
+.cpi-mc-tm-link:hover .cpi-mc-tm-link-text {opacity: 1;}
+
+/* One Step Checkout - Step Active mark */
+.pwfs-top-in.active > .pwfs-tl-mark {display: block;}
+
+/* Content Page Bottom - Zachowanie myszki */
+.content-page-bottom {pointer-events: none;}
+.cp-bottom-up-sale-in,
+.cpb-info-box-in,
+.cpb-price-bar,
+.cpb-limited-offer-in,
+.cpb-cookie-bar {pointer-events: auto;}
+
+/* Formularze - Checkbox - Toggle swatch + Toggle data content */
+.checkbox-toggle-wrap > .checkbox-tw-state[type="checkbox"]:checked ~ .checkbox-tw-toggle {background: #28c162;}
+.checkbox-toggle-wrap > .checkbox-tw-state[type="checkbox"]:checked ~ .checkbox-tw-toggle > .checkbox-tw-toggle-switch {left: 13px;}
+
+.checkbox-bump-offer > .checkbox-bo-state[type="checkbox"]:checked ~ .checkbox-bo-toggle {box-shadow: none;}
+.checkbox-bump-offer > .checkbox-bo-state[type="checkbox"]:checked ~ .checkbox-bo-toggle > .checkbox-bo-toggle-switch {opacity: 100;}
+
+.pwfsbo-checkbox > .pwfsboc-state[type="checkbox"]:checked ~ .pwfsboc-toggle {box-shadow: none;}
+.pwfsbo-checkbox > .pwfsboc-state[type="checkbox"]:checked ~ .pwfsboc-toggle > .pwfsboc-toggle-switch {opacity: 100;}
+
+.pwfsma-checkbox > .pwfsmac-state[type="checkbox"]:checked ~ .pwfsmac-toggle {box-shadow: none;}
+.pwfsma-checkbox > .pwfsmac-state[type="checkbox"]:checked ~ .pwfsmac-toggle > .pwfsmac-toggle-switch {opacity: 100;}
+
+.input-checkbox > .inputc-state[type="checkbox"]:checked ~ .inputc-toggle {box-shadow: none;}
+.input-checkbox > .inputc-state[type="checkbox"]:checked ~ .inputc-toggle > .inputc-toggle-switch {opacity: 100;}
+
+.input-radio > .inputr-state[type="radio"]:checked ~ .inputr-toggle {box-shadow: none;}
+.input-radio > .inputr-state[type="radio"]:checked ~ .inputr-toggle > .inputr-toggle-switch {opacity: 100;}
+.input-radio > .inputr-state[type="radio"]:checked ~ .inputr-label.delivery,
+.input-radio > .inputr-state[type="radio"]:checked ~ .inputr-label.payments-method {box-shadow: rgba(40, 193, 98, 0.5) 0px 0px 0px 1px inset; background: rgba(40, 193, 98, 0.1);}
+
+/* Koszyk zakupowy - ostatni przedmiot w koszyku bez ramki na dole */
+.cpi-ccfl-cart-items > .cpi-ccfl-cart-item:last-child {border-bottom: none;}
+
+/* Formularze */
+.input-wrap > .input-w-label.edit {pointer-events: unset;} /* Zostawić do edycji labelów */
+
+/* Formularze - Przeklikalna maska labela w absolucie na całość */
+.input-wrap > .input-w-label {pointer-events: none;}
+
+/* Formularze - pokazanie labela po kliku w inpute */
+.input-wrap > .input-w-field:focus + .input-w-label,
+.input-wrap > .input-w-textarea:focus + .input-w-label {padding-top: 5px; font-size: 14px; opacity: .5;}
+
+/* Formularze - Chowanie placeholdera na kliku w input */
+.input-wrap > .input-w-field:focus::-webkit-input-placeholder,
+.input-wrap > .input-w-textarea:focus::-webkit-input-placeholder {opacity: 0;}
+.input-wrap > .input-w-field:focus:-moz-placeholder,
+.input-wrap > .input-w-textarea:focus:-moz-placeholder {opacity: 0;} 			/* Firefox < 19 */
+.input-wrap > .input-w-field:focus::-moz-placeholder,
+.input-wrap > .input-w-textarea:focus::-moz-placeholder {opacity: 0;} 			/* Firefox > 19 */
+.input-wrap > .input-w-field:focus:-ms-input-placeholder,
+.input-wrap > .input-w-textarea:focus:-ms-input-placeholder {opacity: 0;} 	/* Internet Explorer 10 */
+
+.pm-data > .input-wrap:last-child,
+.pm-data > .pm-data-left > .input-wrap:last-child,
+.pm-data > .pm-data-right > .input-wrap:last-child {margin-bottom: 0px;}
+
+/* Font Fix */
+* {-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;}
+
+.cpi-cpl-lld-item-toggle > .cpi-cpl-lldit-item:last-child {border-bottom: none;}
+
+/* Katalog sprzedażowy - Opis kursu - Sekcja pytań */
+.cpi-cpl-data > .cpi-cpl-qd-item:last-child > .cpi-cpl-qdi-top {border-bottom: none;}
+
+/* Społeczność - Wiadomości - skrocenie pól tekstowych */
+.cm-lmu-message,
+.cm-lmu-user-name {text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+
+/* Społeczność - Nawigacja szkolenia - Dostylowanie */
+.cpi-cctr-menu-btn:hover > .cpi-cctr-menu-btn-count,
+.cpi-cctr-menu-btn.active > .cpi-cctr-menu-btn-count {background: #2e3234; color: #ffffff;}
+
+/* Społeczność - Side Menu - trzy kropki na końcu nazwy szkolenia i tablicy */
+.cpi-cl-board-title,
+.cpi-cl-biw-link {text-overflow: ellipsis; overflow: hidden; white-space: nowrap;}
+
+/* Społeczność - Koemntarze - Overlay z lupą po najechaniu na zdjęcie */
+.cr-crw-image-wrap > .cr-crw-image-overtlay {opacity: 0%;}
+.cr-crw-image-wrap:hover > .cr-crw-image-overtlay {opacity: 100%;}
+
+/* Społeczność - Komentarze - Usunięcie dolnego paddingu przy różnych wariantach odpowiedzi */
+.community-comments > .cc-comment-reply-s1 > .cc-comment:last-child {padding-bottom: 0px !important;}
+.community-comments > .cc-comment-reply-s1:last-child {padding-bottom: 0px !important;}
+.community-comments > .cc-comment-reply-s1:last-child > .cc-comment {padding-bottom: 30px !important;}
+
+/* Społeczność - Komentarze - Hover zdjęcia */
+.cr-crw-image-wrap:hover > .cr-crw-image-overlay {opacity: 100% !important;}
+
+/* Szkolenia - Moduł - Tło pod kontentem tabów */
+.cpi-mc-tabs-content:before,
+.cpi-mc-tabs-content:after {position: absolute; content: ''; top: 0; height: 100%; background: #f7f9ff; z-index: 0; width: 10000px;}
+.cpi-mc-tabs-content:before {left: -9000px;}
+.cpi-mc-tabs-content:after {right: -9000px;}
+
+/* Szkolenia - breadcrubm */
+.nav-page-breadcrumb .nav-page-b-link:last-child .nav-page-b-link-divider {display: none;}
+
+/* Szkolenia - Nawigacja szkolenia - Dostylowanie */
+.nav-cwl-btn:hover > .nav-cwl-btn-count,
+.nav-cwc-btn:hover > .nav-cwc-btn-count,
+.nav-cwl-btn.active > .nav-cwl-btn-count,
+.nav-cwc-btn.active > .nav-cwc-btn-count {background: #2e3234; color: #ffffff;}
+
+/* Szkolenia - Sekcje kategorii - divider + ostatni z typu */
+.cpi-courses-section:before {position: absolute; height: 1px; content: ""; left: 15px; right: 15px; bottom: 0px; border-bottom: 1px solid #ededed;}
+.cpi-courses-section:last-child:before {display: none;}
+.cpi-courses-section:last-child {padding-bottom: 0px;}
+
+/* Szkolenia - Sekcje kategorii - Sider - Nawigacja */
+.cpi-cs-slider-arrow-right:hover > .cpi-cs-slider-arrow-ico,
+.cpi-cs-slider-arrow-left:hover > .cpi-cs-slider-arrow-ico {background: #2e3234; color: #ffffff;}
+
+/* Szkolenia - Miniatura - Ikony po prawej - Wyświetlaj zawsze jeżeli są active */
+.csiw-ico-right-favourite.active,
+.csiw-ico-right-pin.active {display: block !important;}
+
+/* Szkolenia - Sekcje kategorii - Miniatury - Nakładka nieaktywnych miniatur */
+.cpi-cs-item.inactive .csiw-tm-overlay {display: block;} 
+.cpi-cs-item.inactive .csiw-tm-bottom-bar {display: none;}
+.cpi-cs-item.inactive .csiw-overlay-link {display: none;}
+.cpi-cs-item.inactive:hover .csiw-overlay-link {display: block;}
+
+/* Szkolenia - Sekcje kategorii - Miniatury - Nakładka po najechaniu na miniaturę */
+.cpi-cs-item .csiw-thumb-main:hover > .csiw-tm-overlay {display: block;}
+.cpi-cs-item .csiw-thumb-main:hover > .csiw-tm-bottom-bar {display: none;}
+.cpi-cs-item .csiw-thumb-main:hover > .csiw-tm-right-ico > .csiw-ico-right-favourite,
+.cpi-cs-item .csiw-thumb-main:hover > .csiw-tm-right-ico > .csiw-ico-right-pin,
+.cpi-cs-item .csiw-thumb-main:hover > .csiw-tm-right-ico > .csiw-ico-right-basket {display: block;}
+.cpi-cs-item.add-to-cart .csiw-thumb-main:hover > .csiw-tm-overlay,
+.cpi-cs-item.cart-up-sale .csiw-thumb-main:hover > .csiw-tm-overlay {display: -webkit-box; display: -ms-flexbox;display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-flow: center; flex-flow: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center;}
+.cpi-cs-item.add-to-cart .csiw-thumb-main:hover > .csiw-tm-top-ico,
+.cpi-cs-item.cart-up-sale .csiw-thumb-main:hover > .csiw-tm-top-ico {display: none;}
+.cpi-cs-item.add-to-cart .csiw-thumb-main:hover > .csiw-tm-right-ico > .csiw-ico-right-basket,
+.cpi-cs-item.cart-up-sale .csiw-thumb-main:hover > .csiw-tm-right-ico > .csiw-ico-right-basket {display: none;}
+
+@media only screen and (max-width: 991px) {
+	/* Szkolenia - Sekcje kategorii - Miniatury - Nakładka po najechaniu na miniaturę */
+  .cpi-cs-item .csiw-thumb-main:hover > .csiw-tm-overlay {display: none;}
+  .cpi-cs-item .csiw-thumb-main:hover > .csiw-tm-bottom-bar {display: block;}
+  .cpi-cs-item .csiw-thumb-main:hover > .csiw-tm-right-ico > .csiw-ico-right-favourite,
+	.cpi-cs-item .csiw-thumb-main:hover > .csiw-tm-right-ico > .csiw-ico-right-pin,
+	.cpi-cs-item .csiw-thumb-main:hover > .csiw-tm-right-ico > .csiw-ico-right-basket {display: none;}
+  .cpi-cs-item.add-to-cart .csiw-thumb-main:hover > .csiw-tm-overlay,
+  .cpi-cs-item.cart-up-sale .csiw-thumb-main:hover > .csiw-tm-overlay {display: none;}
+	.cpi-cs-item.add-to-cart .csiw-thumb-main:hover > .csiw-tm-top-ico,
+  .cpi-cs-item.cart-up-sale .csiw-thumb-main:hover > .csiw-tm-top-ico {display: inline-block;}
+
+  /* Szkolenia - Sekcje kategorii - Miniatury - Nakładka nieaktywnych miniatur */
+  .cpi-cs-item.inactive:hover .csiw-tm-overlay {display: block;} 
+  .cpi-cs-item.inactive:hover .csiw-tm-bottom-bar {display: none;}
+  .cpi-cs-item.inactive .csiw-overlay-link {display: block; right: 10px; text-align: center;}
+
+	/* Szkolenia - Sekcje kategorii - divider */
+	.cpi-courses-section:before {left: 10px; right: 10px;}
+}
+
+@media only screen and (max-width: 767px) {
+  /* Szkolenia - Nawigacja szkolenia - Notatki i certyfikaty - ukrycie z listy więcej obecnej pozycji */
+  .nav-cwl-btn.active {display: none !important;}
+}
+
+@media only screen and (max-width: 479px) {
+	/* Defaultowe kategorie Fix na Mobile Portret */
+	.nav-cwl-btn.default {display: flex !important;}
+}
