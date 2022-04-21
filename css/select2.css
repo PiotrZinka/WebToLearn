@@ -24,8 +24,8 @@ position: relative;
   content:  "";
   width: 20px;
   height: 20px;
-  top: 15;
-  left: -30;
+  top: 15px;
+  left: -30px;
 }
 
 .select2-container--bootstrap-5 .select2-selection--single .select2-selection__rendered[title="+1"]:after {
@@ -77,7 +77,7 @@ position: relative;
   display: block;
   padding-left: 8px;
   padding-right: 20px;
-  overflow: hidden;
+  overflow: unset;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
