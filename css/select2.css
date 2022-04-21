@@ -14,9 +14,7 @@ line-height: 48px;
 position: relative;
 }
 
-.select2-container--bootstrap-5 .select2-selection--single .select2-selection__rendered[title="+48"] {
-
-span[title="+48"]:after {
+.select2-container--bootstrap-5 .select2-selection--single .select2-selection__rendered[title="+48"]:after {
   position: absolute;
   content:  "test";
   width: 30px;
