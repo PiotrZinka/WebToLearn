@@ -1,4 +1,16 @@
 /*  ==============================================================
+    Select2 Custom
+    ============================================================== */
+
+.select2-container--bootstrap-5 .select2-selection[aria-labelledby="select2-phone-code-area-container"] {
+  border-radius: 10px 0 0 10px;
+  border-right: 0px;
+  padding: 0 20px 0 50px;
+  height: 50px;
+}
+
+
+/*  ==============================================================
     Select2 Default CSS test
     ============================================================== */
 
@@ -464,14 +476,6 @@
 /*  ==============================================================
     Select2 v4 Bootstrap 5 theme v1.2.0
     ============================================================== */
-
-.select2-container--bootstrap-5 .select2-selection[aria-labelledby="select2-phone-code-area-container"] {
-  border-radius: 10px 0 0 10px;
-  border-right: 0px;
-  padding: 0 20px 0 50px;
-  height: 50px;
-}
-
 
 .select2-container--bootstrap-5 {
   display: block;
