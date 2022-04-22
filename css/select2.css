@@ -5,6 +5,7 @@
 .select2-container--bootstrap-5 .select2-selection[aria-labelledby="select2-phone-code-area-container"] {
   border-radius: 10px 0 0 10px;
   border-right: 1px;
+  border-right-style: solid;
   padding: 0 20px 0 20px;
   height: 50px;
 }
