@@ -7,8 +7,8 @@ $(document).ready(function(){
       theme: 'bootstrap-5',
       selectionCssClass: 'cs-h40-style',
   } );
-  $( '.cs-h30' ).select2( {
+  $( '.cs-h40s' ).select2( {
       theme: 'bootstrap-5',
-      selectionCssClass: 'cs-h30-style',
+      selectionCssClass: 'cs-h40s-style',
   } );
 });
