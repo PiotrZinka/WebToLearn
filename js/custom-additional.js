@@ -5,7 +5,8 @@ $(document).ready(function(){
   } );
   $( '.cs-h40' ).select2( {
       theme: 'bootstrap-5',
-      selectionCssClass: 'cs-h40-style'
+      selectionCssClass: 'cs-h40-style',
+      width: 'auto'
   } );
   
 });
