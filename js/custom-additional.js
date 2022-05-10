@@ -1,7 +1,6 @@
 $(document).ready(function(){
-  $( '.phone-code-area' ).select2( {
+  $( '.cs-h50' ).select2( {
       theme: 'bootstrap-5',
-      height: '50px',
-      selectionCssClass: 'test-34'
+      selectionCssClass: 'cs-h50-style'
   } );
 });
