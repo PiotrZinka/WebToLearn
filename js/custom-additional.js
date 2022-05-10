@@ -10,5 +10,6 @@ $(document).ready(function(){
   $( '.cs-h40s' ).select2( {
       theme: 'bootstrap-5',
       selectionCssClass: 'cs-h40s-style',
+      width: '100%'
   } );
 });
