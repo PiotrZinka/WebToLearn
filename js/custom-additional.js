@@ -7,9 +7,9 @@ $(document).ready(function(){
       theme: 'bootstrap-5',
       selectionCssClass: 'cs-h40-style',
   } );
-  $( '.cs-h40s' ).select2( {
+  $( '.cs-h40n' ).select2( {
       theme: 'bootstrap-5',
-      selectionCssClass: 'cs-h40s-style',
+      selectionCssClass: 'cs-h40n-style',
       width: '100%'
   } );
 });
