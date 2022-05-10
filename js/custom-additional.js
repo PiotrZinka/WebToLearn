@@ -6,7 +6,11 @@ $(document).ready(function(){
   $( '.cs-h40' ).select2( {
       theme: 'bootstrap-5',
       selectionCssClass: 'cs-h40-style',
-      width: 'auto'
+  } );
+  $( '.cs-h40-showitems' ).select2( {
+      theme: 'bootstrap-5',
+      selectionCssClass: 'cs-h40-showitems-style',
+      width: '100px'
   } );
   
 });
