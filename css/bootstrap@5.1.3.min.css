@@ -74,6 +74,7 @@
     scroll-behavior: smooth;
   }
 }
+/*
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
@@ -86,6 +87,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
+*/
 hr {
   margin: 1rem 0;
   color: inherit;
