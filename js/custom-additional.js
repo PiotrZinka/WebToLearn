@@ -12,13 +12,18 @@ $(document).ready(function(){
       theme: 'bootstrap-5',
       selectionCssClass: 'cs-h40-style',
   } );
+  $( '.cs-h40-w100' ).select2( {
+      theme: 'bootstrap-5',
+      selectionCssClass: 'cs-h40-style',
+      width: '100%'
+  } );
   $( '.cs-h40s' ).select2( {
       theme: 'bootstrap-5',
       selectionCssClass: 'cs-h40s-style',
   } );
-  $( '.cs-h40n' ).select2( {
+  $( '.cs-h40s-w100' ).select2( {
       theme: 'bootstrap-5',
-      selectionCssClass: 'cs-h40n-style',
+      selectionCssClass: 'cs-h40s-style',
       width: '100%'
   } );
 });
