@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $( '.cs-h50-w100-square' ).select2( {
+  $( '.cs-h50-square' ).select2( {
       theme: 'bootstrap-5',
       selectionCssClass: 'cs-h50-style-square'
   } );
