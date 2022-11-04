@@ -42,8 +42,8 @@ $(document).ready(function(){
     $(this).closest('.cpi-community-post').find('.community-comments').toggleClass('active');
     $(this).closest('.cpi-community-post').find('.community-comments-message').toggleClass('active');
   });
-  
-	// Hide and show table action menu
+ 
+  // Hide and show table action menu
   $('.table-action-btn').click(function(){
     if ( $(this).siblings('.table-action-menu').css('display') == 'none') { 
         $('.table-action-menu').css('display','none');
@@ -53,7 +53,38 @@ $(document).ready(function(){
         $('.table-action-menu').css('display','none');
     }
   });
-  
+
+    // Toggle wiadomości 
+    var widok_wiadomosci_odebrane = $('.cm-left-inbox-top, .cm-left-inbox-messages, .cm-left-inbox-bottom');
+    var widok_wiadomosci_nowa = $('.cm-left-new-message-top, .cm-left-new-message-choose');
+    var widok_wiadomosci_kosz = $('.cm-left-trash-top, .cm-left-trash-messages, .cm-left-trash-bottom');
+
+    // Toggle wiadomości – Odebrane > Nowa wiadomość
+    $('.new-message-btn').click(function(){
+      $(widok_wiadomosci_odebrane).toggleClass('hide');
+      $(widok_wiadomosci_nowa).toggleClass('active');
+    });
+
+    // Toggle wiadomości – Nowa wiadomość > Odebrane
+    $('.new-message-close-btn, .cm-lnm-user-item').click(function(){
+      $(widok_wiadomosci_nowa).toggleClass('active');
+      $(widok_wiadomosci_odebrane).toggleClass('hide');
+    });
+
+    // Toggle wiadomości – Odebrane > Kosz
+    $('.trash-message-btn').click(function(){
+      $(widok_wiadomosci_odebrane).toggleClass('hide');
+      $(widok_wiadomosci_kosz).toggleClass('active');
+    });
+
+    // Toggle wiadomości – Kosz > Odebrane
+    $('.inbox-message-btn').click(function(){
+      $(widok_wiadomosci_kosz).toggleClass('active');
+      $(widok_wiadomosci_odebrane).toggleClass('hide');
+    });	
+	
+	
+	
 });
 
 	
