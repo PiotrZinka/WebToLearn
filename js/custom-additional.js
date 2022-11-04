@@ -83,7 +83,10 @@ $(document).ready(function(){
       $(widok_wiadomosci_odebrane).toggleClass('hide');
     });	
 	
-	
+    // Toggle wiadomosci powitalnej na pulpicie
+    $('.cpi-welcome-message-btn').click(function(){
+      $('.cpi-welcome-message-head').toggleClass('hide');
+    });
 	
 });
 
