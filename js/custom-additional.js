@@ -94,6 +94,12 @@ $(document).ready(function(){
       $(this).toggleClass('active');
     });
 	
+    // Toggle opisu szkolenia w Szkolenie
+    $('.cpi-cdhi-btn').click(function(){
+      $(this).toggleClass('active');
+      $('.cpi-courses-details-description').toggleClass('active');
+    });
+	
 });
 
 	
