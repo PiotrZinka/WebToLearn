@@ -88,6 +88,12 @@ $(document).ready(function(){
       $('.cpi-welcome-message-head').toggleClass('hide');
     });
 	
+    // Toggle notatek i certyfikatów
+    var title_notes_cert = $('.cpl-cw-title, .cpl-nw-title');
+    $(title_notes_cert).click(function(){
+      $(this).toggleClass('active');
+    });
+	
 });
 
 	
